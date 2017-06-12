@@ -23,5 +23,9 @@
         "psr-4": {
             "RebelCode\\Modular\\": "src"
         }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "csfix": "php-cs-fix fix -vvv"
     }
 }
