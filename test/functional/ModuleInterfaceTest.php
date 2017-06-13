@@ -50,13 +50,13 @@ class ModuleInterfaceTest extends TestCase
         $this->assertInstanceOf(
             static::TEST_SUBJECT_CLASSNAME,
             $subject,
-            'Subject is not a valid instance.'
+            'Subject is not a valid test subject instance.'
         );
 
         $this->assertInstanceOf(
            'Dhii\\Modular\\Module\\ModuleInterface',
             $subject,
-            'Subject is not a valid Dhii\\Modular\\Module\\ModuleInterface instance.'
+            'Subject is not a valid test subject instance.'
         );
     }
 }
