@@ -21,11 +21,11 @@ interface ModuleInterface extends BaseModuleInterface
     public function getName();
 
     /**
-     * Retrieves the IDs of the modules which this module depends on.
+     * Retrieves the keys of the modules which this module depends on.
      *
      * @since [*next-version*]
      *
-     * @return string[] A list of module IDs.
+     * @return string[] A list of module keys.
      */
     public function getDependencies();
 }
