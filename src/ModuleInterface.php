@@ -12,15 +12,6 @@ use Dhii\Modular\Module\ModuleInterface as BaseModuleInterface;
 interface ModuleInterface extends BaseModuleInterface
 {
     /**
-     * Retrieves the name of the module.
-     *
-     * @since [*next-version*]
-     *
-     * @return string
-     */
-    public function getName();
-
-    /**
      * Retrieves the keys of the modules which this module depends on.
      *
      * @since [*next-version*]
