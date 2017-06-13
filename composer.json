@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^5.3 | ^7.0"
+        "php": "^5.3 | ^7.0",
+        "dhii/modular-interface": "dev-task/initial-interface"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
@@ -21,7 +22,11 @@
     },
     "autoload": {
         "psr-4": {
-            "RebelCode\\Modular\\": "src"
+            "RebelCode\\Modular\\Module\\": "src"
         }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "csfix": "php-cs-fix fix -vvv"
     }
 }
