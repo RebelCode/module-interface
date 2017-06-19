@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c087b73d0485b130febde8c2e2480853",
+    "content-hash": "210b8635fff25fe83723c3d0e822a9ca",
     "packages": [
         {
             "name": "dhii/data-key-value-aware-interface",
@@ -49,17 +49,17 @@
             "time": "2017-01-21T17:35:30+00:00"
         },
         {
-            "name": "dhii/modular-interface",
-            "version": "dev-task/initial-interface",
+            "name": "dhii/module-interface",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Dhii/modular-interface.git",
-                "reference": "38d369b22c4caa69ad9484dd1e940c359a458d79"
+                "url": "https://github.com/Dhii/module-interface.git",
+                "reference": "2103f11abdaa2f460a1ee4e702e9a30772085a02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/modular-interface/zipball/38d369b22c4caa69ad9484dd1e940c359a458d79",
-                "reference": "38d369b22c4caa69ad9484dd1e940c359a458d79",
+                "url": "https://api.github.com/repos/Dhii/module-interface/zipball/2103f11abdaa2f460a1ee4e702e9a30772085a02",
+                "reference": "2103f11abdaa2f460a1ee4e702e9a30772085a02",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Dhii\\Modular\\": "src"
+                    "Dhii\\Modular\\Module\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -88,8 +88,8 @@
                     "email": "development@dhii.co"
                 }
             ],
-            "description": "Interfaces for modular systems.",
-            "time": "2017-06-12 16:39:20"
+            "description": "Interfaces for modules",
+            "time": "2017-06-19 11:11:58"
         }
     ],
     "packages-dev": [
@@ -1738,7 +1738,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-12T16:03:21+00:00"
+            "time": "2017-06-12 16:03:21"
         },
         {
             "name": "symfony/filesystem",
@@ -1844,12 +1844,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
                 "shasum": ""
             },
             "require": {
@@ -1861,7 +1861,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -1895,7 +1895,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09 14:24:12"
+            "time": "2017-06-14 15:44:48"
         },
         {
             "name": "symfony/process",
@@ -2001,12 +2001,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "02878ee742708dd663c129a1bd3ad1b628098b00"
+                "reference": "08c644988dba9d608d18bb8ad8dd633f276137f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/02878ee742708dd663c129a1bd3ad1b628098b00",
-                "reference": "02878ee742708dd663c129a1bd3ad1b628098b00",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/08c644988dba9d608d18bb8ad8dd633f276137f7",
+                "reference": "08c644988dba9d608d18bb8ad8dd633f276137f7",
                 "shasum": ""
             },
             "require": {
@@ -2048,7 +2048,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-12T16:03:21+00:00"
+            "time": "2017-06-14 20:38:21"
         },
         {
             "name": "webmozart/assert",
@@ -2104,7 +2104,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "dhii/modular-interface": 20,
+        "dhii/module-interface": 20,
         "dhii/php-cs-fixer-config": 20
     },
     "prefer-stable": false,
